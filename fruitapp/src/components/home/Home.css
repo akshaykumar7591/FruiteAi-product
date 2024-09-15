@@ -1,0 +1,141 @@
+body {
+    
+    background: linear-gradient(90deg, #E0BCF3 0%, #7EE7EE 100%);
+/* background: linear-gradient(135deg, #a8edea, #fed6e3); */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+  
+   
+    border-radius: 50px 0px 0px 0px;
+    border: 0.5px 0px 0px 0px;
+    opacity: 0px;
+    text-align: center;
+    
+}
+.title {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 0.5rem;
+    /* font-family: Dosis; */
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 37.92px;
+    text-align: center;
+
+}
+.subtitle {
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 2rem;
+font-size: 15px;
+font-weight: 800;
+line-height: 18.96px;
+letter-spacing: 1px;
+text-align: center;
+
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+.card {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 20px ;
+border: 1px ;
+opacity: 0px;
+border: 1px solid rgba(255, 255, 255, 0.2)
+    /* width: 137px;
+height: 139px;
+top: 157px;
+left: 41px;
+gap: 0px;
+border-radius: 20px 0px 0px 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+border: 1px solid #FFFFFF33 */
+
+}
+.chat {
+    background: #FFE5C2;
+
+    color: #C84AD3;
+
+font-size: 2rem;
+font-weight: 800;
+
+box-shadow: -10px 4px 24px 0px #ffe5c26d;
+
+/* background: #C84AD3; */
+ 
+
+}
+.translate {
+    background-color: #ccf2ff;
+    color: #0066ff;
+    box-shadow: -10px 4px 24px 0px #ccf2ff6b;
+}
+.faqs {
+    background-color: #e6ccff;
+    color: #333399;
+  
+font-size: 2rem;
+font-weight: 800;
+
+
+    box-shadow: -10px 4px 24px 0px rgba(90, 13, 191, 0.304);
+
+}
+.about {
+    background-color: #ffccff;
+    color: #ff66cc;
+    box-shadow: -10px 4px 24px 0px #ffccff47;
+    
+font-size: 1.7rem;
+font-weight: 800;
+
+
+}
+.pagination {
+    margin-top: 1rem;
+}
+.dot {
+    height: 8px;
+    width: 8px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 2px;
+}
+@media (min-width: 640px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .card {
+        width: 150px;
+        height: 150px;
+    }
+}
+@media (min-width: 1024px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .card {
+        width: 200px;
+        height: 200px;
+    }
+}
